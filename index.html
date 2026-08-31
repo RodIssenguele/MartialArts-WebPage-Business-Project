@@ -11,27 +11,27 @@
     href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Montserrat:wght@500;600;700&display=swap"
     rel="stylesheet"
   >
-  <link rel="stylesheet" href="styles/hero.css">
-  <link rel="stylesheet" href="styles/mobileHero.css">
-  <link rel="stylesheet" href="styles/mobileNav.css">
-  <link rel="stylesheet" href="styles/nav.css">
+  <link rel="stylesheet" href="styles/desktop/hero-section-desktop.css">
+  <link rel="stylesheet" href="styles/mobile/mobileHero.css">
+  <link rel="stylesheet" href="styles/mobile/mobileNav.css">
+  <link rel="stylesheet" href="styles/desktop/nav-section-desktop.css">
   <link rel="stylesheet" href="styles/general.css">
+  <link rel="stylesheet" href="styles/desktop/sifu-angebote-section-desktop.css">
+  <link rel="stylesheet" href="styles/desktop/fur-wen-section-desktop.css">
+  <link rel="stylesheet" href="styles/desktop/location-section-desktop.css">
+  <link rel="stylesheet" href="styles/desktop/footer-section-desktop.css">
+
 </head>
 <body>
-  <img class="body-background-img" src="background-img-2.png">
+  <img class="body-background-img" src="images/background-img-2.png">
 
   <header class="header"> 
 
     <div class="logo-container">
-      <img alt="Hè Shàng Do Martial Arts Logo" class="logo-img" src="Logo.jpeg">
+      <img alt="Hè Shàng Do Martial Arts Logo" class="logo-img" src="images/Logo.jpeg">
     </div>
 
     <div class="name-nav-container">
-      <!-- 
-      <div class="name-container">
-        <h1 class="name">Hè Shàng Do Martial Arts</h1>
-      </div>
-      -->
       <nav class="nav-container js-nav-container">
         <ul class="list">
           <li class="li home"><a href="home" class="ancor">Home</a></li>
@@ -62,7 +62,10 @@
 
       <h1 class="hero-name name">Hè Shàng Do Martial Arts</h1>
       <h3 class="hero-in-seit ">Jeet Kune Do & Kickboxen in Amriswil  seit 1998</h3>
-      <h3 class="hero-description">Willkommen in der Hè Shàng Do Kampfkunstschule Jeet Kune Do Bruce Lee`s Style Amriswil. Seit 26 Jahren bieten wir in Amriswil einzigartiges Kamsporttraining, inspiriert  von Bruce Lee. Unsere Schule steht für Tradition, Fortschritt und eine starke Gemeinschaft.</h3>
+      <h3 class="hero-description">Seit 1998 steht Hè Shàng Do in Amriswil für Jeet Kune Do, Kickboxen und Kampfkunst nach den Prinzipien Bruce Lees. Bei uns trainieren Anfänger und Fortgeschrittene in einer persönlichen und engagierten Gemeinschaft.</h3>
+      <p class="angeboten-list">
+        Jeet Kune Do - JKD - Kickboxen / Boxen - Kung Fu 
+      </p>
     
       <div class="hero-btn-container">
         <button class="hero-cta-btn">2 GRATIS PROBETRAININGS</button>
@@ -71,20 +74,109 @@
     </div>
    </section>
 
-   <section class="sifu-angebote">
+   <section class="sifu-angebote-section">
 
-    <div class="hero-cta-container hero-div">
+      <div class="sifu-intro-container grid-container">
+        <h2>Der Meister</h2>
 
-      <div class="sifu-intro-container">
-        <img class="trainer-img" alt="Sifu Romano Bild" src="sifu-romano.jpeg">
+        <img class="trainer-img" alt="Sifu Romano Bild" src="images/sifu-romano.jpeg">
         <legend class="sifu-intro-legend">Sifu Romano Koller Meister im J.K.D Kung - Fu und J.K.D - Kickboxen</legend>
 
-        <h2 class="hero-kleine-satz hero-description">Der einzige Weg, wirklich sehr gut und perfekt zu werden, ist derjenige, alles zu tun, um einhundertprozentig zu sein, in allem was man tut</h2>
+        <h3 class="sifu-kleine-satz">Der einzige Weg, wirklich sehr gut und perfekt zu werden, ist derjenige, alles zu tun, um einhundertprozentig zu sein, in allem was man tut</h3>
       </div>
-      <div class="angebote-container">
 
+      <div class="angebote-container grid-container">
+        <h2>Unsere Angebote</h2>
+
+        <div class="optionen-container">
+
+          <div class="p-optionen">
+            <h3 class="optionen-title">Jeet Kune Do</h3>
+            <p class="optionen-text">Effektive Selbstverteidigung nach den Prinzipien Bruce Lees – direkt, flexibel und ohne unnötige Bewegungen.</p>
+            <button class="button-optionen" >Jeet Kune Do</button>
+          </div>
+
+          <div class="p-optionen">
+            <h3 class="optionen-title">JKD Kickboxen / Boxen</h3>
+            <p class="optionen-text">Dynamisches Schlag- und Tritttraining für Technik, Kondition, Schnelligkeit und Koordination.</p>
+            <button class="button-optionen">JKD Kickboxen / Boxen</button>
+          </div>
+
+          <div class="p-optionen">
+            <h3 class="optionen-title">JKD Kickboxen / Boxen</h3>
+            <p class="optionen-text">Gezielte Vorbereitung auf Lei Tai, Sanda und K1 – für alle, die ihre Fähigkeiten im Wettkampf testen möchten.</p>
+            <button class="button-optionen">Wettkampftraining</button>
+          </div>
+
+          <div class="p-optionen">
+            <h3 class="optionen-title">Privattraining</h3>
+            <p class="optionen-text">Persönliches Einzeltraining, individuell auf deine Ziele, dein Niveau und dein Lerntempo abgestimmt.</p>
+            <button class="button-optionen">Privattraining</button>
+          </div>
+          
+        </div>
       </div>
-    </section>
+
+  </section>
+    
+  <section class="fur-wen-section">
+    
+    <div class="fur-wen-container">
+      <h2 class="fur-wen-title">Für wen?</h2>
+      <h3 class="h3-furwen">Kampfkunst für jedes Alter</h3>
+      <p>Ob Kinder, Jugendliche, Erwachsene oder Senioren – das Training wird an Alter, Erfahrung und persönliche Fähigkeiten angepasst. Anfänger sind ebenso willkommen wie erfahrene Kampfsportler.</p>
+      <p>Kinder · Jugendliche · Erwachsene · Senioren · Training bei ADHS</p>
+      <div class="img-example-container">
+        <img alt="Gewinner der Jugendmeisterschaften der Mädchen und Jungen" class="ex-img" src="images/jugendlich-wettkapf.jpeg">
+        <img alt="" class="ex-img" src="images/lernende-kick.jpeg">
+        <img class="ex-img" src="images/kindern-klass.jpeg">
+      </div>
+       
+      <button class="hero-cta-btn">2 GRATIS PROBETRAININGS</button>
+    </div>
+  </section>
+
+  <section class="kontakt-ort-section">
+    <div class="title-location-container">
+      <h2>Hier findest du uns:</h2>
+    </div>
+
+    <div class="grid-location">
+      <!--
+      <div class="logo-container-adress">
+        <img alt="Hè Shàng Do Martial Arts Logo" class="logo-img-adress" src="images/Logo.jpeg">
+      </div>
+      <button class="hero-cta-btn">2 GRATIS PROBETRAININGS</button>
+    -->
+      <div class="kontakt-adress">
+
+        
+
+        <div class="text-info-container"> 
+          <p class="info-text">Adresse: <br>Schofenstrasse 12 <br>
+          8580 Amriswil</p>
+          <p class="info-text">Tel: <br>
+            0714100303 <br>
+            0796772545
+          </p>
+          <p class="info-text">
+            Email: <br>
+            romano.koller@bluemail.ch
+          </p>
+        </div>  
+      </div>
+
+      <div class="link-location-container">
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2693.077364685348!2d9.272204311940785!3d47.54682299198337!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x479afb52cc2d8101%3A0xd5c145a512dd1a2a!2zSMOpIFNow6BuZyBEbw!5e0!3m2!1spt-BR!2sch!4v1788101565992!5m2!1spt-BR!2sch" width="350" height="200" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="strict-origin-when-cross-origin"></iframe>
+      </div>      
+    </div>
+  </section>
+  
+  <footer class="footer-section">
+    <div class="footer-text-container">
+      <h2>Jeet Kune Do Concept / J.K.D - Kickboxen </h2>
+    </div>
+  </footer>
 
 
   <script src="javaScript/heShangDo.js"></script>

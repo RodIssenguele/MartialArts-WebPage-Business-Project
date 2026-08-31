@@ -38,11 +38,6 @@
     
   }
   
-  .name{
-    color: darkred;
-    margin:0;
-    font-family: "Montserrat", sans-serif;
-  }
 
   .nav-container{
     display: flex;

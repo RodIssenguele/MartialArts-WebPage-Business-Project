@@ -7,12 +7,8 @@
     margin-top: 2%;
     display: flex;
     flex-direction: column;
-    /*
-    grid-template-columns: 49% 49%;
-    */
     gap:20px;
-    align-items: center;
-    
+    align-items: center; 
   }
 
   .hero-div{
@@ -25,23 +21,16 @@
     width: 80%;
   }
 
-  .hero-in-seit{
-    color: whitesmoke;
-    font-family: "Inter", sans-serif;
-    font-size: 14px;
-  }
-
   .hero-description{
-    color: whitesmoke;
-    font-family: "Inter", sans-serif;
     font-size: 18px;
-    text-align: center;
   }
 
   .hero-btn-container{
     display: flex;
     flex-direction: column;
     align-items: center;
+    margin: 0;
+    padding: 0;
   }
 
   .hero-cta-btn{
@@ -53,44 +42,19 @@
     color: whitesmoke;
     font-family: "Inter", sans-serif;
     font-size: 15px;
+    cursor:pointer;
   }
 
-  .sifu-intro-container{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+  .hero-cta-btn:hover{
+    cursor: pointer;
   }
-
-
-
-
-
-
-
-
-  .trainer-img{
-    object-fit: cover;
-    width: 200px;
-  }
-
-  .sifu-intro-legend{
+  .hero-be-water{
     color: whitesmoke;
     font-family: "Inter", sans-serif;
-    font-size: 12px;
+    font-size: 15px;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    margin: 10px 0;
   }
-
-
-  .sifu-angebote{
-     position: relative;
-    z-index: 1000;
-    color: whitesmoke;
-    background-color: transparent;
-    margin-top: 2%;
-    display: grid;
-    grid-template-columns: 49% 49%;
-    gap:20px;
-    align-items: center;
-  }
-
-
 }

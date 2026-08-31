@@ -1,0 +1,66 @@
+@media(min-width: 1024px){
+  .kontakt-ort-section{
+    position: relative;
+    z-index: 1000;
+    color: whitesmoke;
+    margin: 1.5% 0;
+    gap:20px;
+    background-color: rgb(31, 31, 31); 
+    border-radius: 20px;
+    height: fit-content;
+    padding: 10px;
+  }
+
+  .title-location-container{
+    margin: 10px;
+    
+  }
+
+  .grid-location{
+    display: grid;
+    grid-template-columns:  55% 45%;
+    align-items: center;
+    justify-items: center;
+  }
+
+  .link-location-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+  }
+
+  .kontakt-adress{
+    display: flex;
+    flex-direction: row;
+    background-color: rgb(31, 31, 31);
+    border-radius: 20px;
+    /*padding: 20px;*/
+    gap:30px;
+    line-height: 2.0;
+  }
+
+  .text-info-container{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    gap: 40px
+  }
+/*
+  .logo-container-adress{
+    width: 250px;
+    height: 250px;
+  }
+    */
+  /*
+  .logo-img-adress{
+    object-fit: cover;
+    max-height: 100%;
+    border-radius: 20px;
+    max-width:100%;
+  }
+    */
+  .info-text{
+    text-align: start;
+  }
+}
