@@ -22,7 +22,7 @@
   }
 
   .hero-description{
-    font-size: 18px;
+    font-size: 1.1rem;
   }
 
   .hero-btn-container{
@@ -41,7 +41,7 @@
     background-color: darkred;
     color: whitesmoke;
     font-family: "Inter", sans-serif;
-    font-size: 15px;
+    font-size: 1rem;
     cursor:pointer;
   }
 
@@ -51,7 +51,7 @@
   .hero-be-water{
     color: whitesmoke;
     font-family: "Inter", sans-serif;
-    font-size: 15px;
+    font-size: 1rem;
     text-align: center;
     margin: 0;
     padding: 0;
