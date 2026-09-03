@@ -1,0 +1,95 @@
+@media(max-width:767px){
+  .sifu-angebote-section{
+    position: relative;
+    background-color: transparent;
+    margin-top: 4%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .grid-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: start;
+    gap:20px;
+    background-color: rgb(31, 31, 31);
+    border-radius: 20px;
+    padding: 10px 15px;
+    width: 85%;
+    height: 100%;
+    margin-top: 5%;
+  }
+
+  .trainer-img{
+    object-fit: cover;
+    width: 70%;
+    height: auto;
+    margin: 0;
+  }
+
+  .sifu-name{
+    margin: 0;
+  }
+
+  .sifu-intro-legend{
+    color: whitesmoke;
+    font-family: "Inter", sans-serif;
+    font-size: 0.9rem;
+    margin: 0;
+  }
+
+  .optionen-container{
+    display: grid;
+    grid-template-columns: 49% 49%;
+    grid-template-rows:  auto auto;
+    justify-content: space-between;
+    align-content: center;
+    gap:15px;
+  }
+  
+  .p-optionen{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    height: auto;
+    font-family: "Inter", sans-serif;
+    background-color: rgba(245, 245, 245, 0.668);
+    border: 2px solid darkred;
+    border-radius: 20px;
+    padding: 0 5px;
+  }
+
+  .optionen-title{
+    margin: 8% 0 0 0;
+  }
+
+  .optionen-text{
+    margin: 0;
+  }
+
+  .button-optionen{
+    cursor:pointer;
+    padding: 5%;
+    border: 2px solid darkred;
+    background-color: darkred;
+    color:whitesmoke;
+    border-radius: 20px;
+    width:100%;
+    height: fit-content;
+    margin: 10px 0;
+  }
+
+  .optionen-text{
+    text-align:center;
+    color: rgb(31, 31, 31);
+    padding:15px 0;
+    margin: 5px 0;
+  }
+  .sifu-kleine-satz{
+    margin: 0;
+  }
+
+}

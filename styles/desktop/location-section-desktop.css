@@ -16,51 +16,40 @@
     
   }
 
-  .grid-location{
-    display: grid;
-    grid-template-columns:  55% 45%;
-    align-items: center;
-    justify-items: center;
-  }
-
   .link-location-container{
     display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content: center;
+    justify-content: start;
     padding: 20px;
   }
 
   .kontakt-adress{
     display: flex;
     flex-direction: row;
-    background-color: rgb(31, 31, 31);
+    background-color: rgba(245, 245, 245, 0.668);
     border-radius: 20px;
-    /*padding: 20px;*/
+    padding: 10px 50px;
     gap:30px;
-    line-height: 2.0;
+    line-height: 1.0;
+    
   }
 
-  .text-info-container{
-    display: grid;
-    grid-template-columns: auto auto auto;
-    gap: 40px
-  }
-/*
-  .logo-container-adress{
-    width: 250px;
-    height: 250px;
-  }
-    */
-  /*
-  .logo-img-adress{
-    object-fit: cover;
-    max-height: 100%;
+  .adresse{
+    background-color: rgba(245, 245, 245, 0.668);
     border-radius: 20px;
-    max-width:100%;
+    padding: 10px 50px;
   }
-    */
+
+
+  .info-title{
+    color:darkred;
+    font-size: 18px;
+    font-weight: 500;
+  }
+
   .info-text{
     text-align: start;
+    color: black;
   }
 }

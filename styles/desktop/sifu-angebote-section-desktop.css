@@ -2,20 +2,21 @@
     .sifu-angebote-section{
     position: relative;
     z-index: 1000;
-    color: whitesmoke;
     background-color: transparent;
-    margin-top: 2%;
+    margin: 2%;
     display: grid;
     grid-template-columns: 49% 49%;
     gap:20px;
     align-items: center;
+    width: 96%;
+    justify-content: center;
   }
 
   .grid-container{
     display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content: start;
+    justify-content: center;
     gap:30px;
     background-color: rgb(31, 31, 31);
     border-radius: 20px;
