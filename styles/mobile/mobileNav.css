@@ -40,9 +40,9 @@
     display: none;
   }
 
-  /*
+  
 
-  .mobile-nav-div{
+  .visible-mobile-nav-div{
     position:fixed;
     top:0;
     right: 0;
@@ -51,7 +51,7 @@
     background-color: rgb(31, 31, 31);
   }
  
-*/ 
+ 
   .nav-container{
     position: relative;
     top:80px; 
