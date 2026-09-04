@@ -43,18 +43,20 @@
   
 
   .visible-mobile-nav-div{
-    position:fixed;
+    position: fixed;
     top:0;
     right: 0;
     left:0;
-    bottom: 0;
     background-color: rgb(31, 31, 31);
+    height: 100vh;
   }
  
  
   .nav-container{
     position: relative;
     top:80px; 
+    height: 100%;
+
   }
   
   

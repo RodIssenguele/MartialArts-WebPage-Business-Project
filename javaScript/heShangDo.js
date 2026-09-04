@@ -4,6 +4,8 @@ function mobileNavBtn(){
 
   const navContainer = document.querySelector('.js-nav-container');
 
+  const body = document.querySelector('.body');
+
   hamburgerBtn.addEventListener('click', ()=>{
 
     navContainer.classList.toggle('mobile-nav-div');
@@ -12,6 +14,15 @@ function mobileNavBtn(){
 
     let toggled = navContainer.classList.contains('visible-mobile-nav-div');
 
+    if(toggled){
+    body.style.height = '100%';
+    body.style.overflow = 'hidden';
+    } else {
+      body.style.height = 'fit-content';
+      body.style.overflow = '';
+    }
+
+    console.log(body.style.height, body.style.overflow)
 
 
   })
