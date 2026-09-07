@@ -1,5 +1,5 @@
 
-@media(max-width:767px){
+@media(max-width:1023px){
   .hero-section{
     position: relative;
     z-index: 1;
@@ -28,6 +28,7 @@
 
   .hero-description{
     font-size: 1.1rem;
+    line-height: 1.4;
   }
 
   .hero-btn-container{

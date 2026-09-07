@@ -1,5 +1,5 @@
 
-@media(max-width:767px){
+@media(max-width:1023px){
   .header{
     position: relative;
     z-index: 2;
@@ -20,8 +20,8 @@
   }
 
   .logo-container{
-    width: 18%;
-    height: 90%;
+    width: 20%;
+    height: 100%;
     padding: 10px 5px;
     background-color: rgb(31, 31, 31);
     padding: 0;
@@ -31,7 +31,7 @@
   
   .logo-img{
     object-fit: cover;
-    max-height: 100%;
+    height: 100%;
     border-radius: 20px;
     width:100%;
   }
@@ -44,20 +44,22 @@
 
   .visible-mobile-nav-div{
     position: fixed;
-    top:0;
+    top: 0;
     right: 0;
     left:0;
-    background-color: rgb(31, 31, 31);
     height: 100vh;
+    background-color: rgb(31, 31, 31);
+    overflow:scroll;
+    display: block;
+
   }
  
  
   .nav-container{
     position: relative;
-    top:80px; 
-    height: 100%;
-
-  }
+    top:80px;
+    padding-bottom: 40px;
+   }
   
   
   .list{
@@ -66,7 +68,6 @@
     flex-direction: column;
     align-items: center;
     justify-content: space-evenly;
-    height: 100%;
     gap: 30px;
     list-style: none;
     padding: 0;

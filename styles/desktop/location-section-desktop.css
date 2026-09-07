@@ -6,9 +6,10 @@
     margin: 1.5% 0;
     gap:20px;
     background-color: rgb(31, 31, 31); 
-    border-radius: 20px;
+    border-radius: 0px;
     height: fit-content;
     padding: 10px;
+    opacity: 0.9;
   }
 
   .title-location-container{
