@@ -59,8 +59,7 @@
     left:0;
     bottom: 0;
     animation-name: closingNav;
-    animation-duration: 0.8s;
-    transition: height 0.8s ease;
+    animation-duration: 0.5s;
     background-color: rgb(31, 31, 31);
     display: block;
   }
@@ -86,15 +85,14 @@
     overflow:scroll;
     display: block;
     animation-name: openNav; 
-    animation-duration: 0.8s;
-    transition: height 0.8s ease;
+    animation-duration: 0.6s;
+
   }
  
  
   .nav-container{
     position: relative;
-    top:80px;
-    padding-bottom: 40px;
+    padding-top: 20%;
    }
   
   

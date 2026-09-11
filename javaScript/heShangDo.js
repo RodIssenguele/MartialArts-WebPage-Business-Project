@@ -9,25 +9,22 @@ function mobileNavBtn(){
 
   hamburgerBtn.addEventListener('click', ()=>{
      let toggled = navContainer.classList.contains('visible-mobile-nav-div');
-    console.log('1')
 
     if(toggled){
       navContainer.classList.remove('visible-mobile-nav-div');
       navContainer.classList.add('mobile-nav-div-closing-animation');
-      body.style.overflow = 'scroll';
        body.style.position = '';
        main.style.opacity = '1';
-      console.log('2')
       return
       //console.log('2', navContainer.classList)
     } else{
       navContainer.classList.add('visible-mobile-nav-div');
       navContainer.classList.remove('mobile-nav-div');
-      console.log('3')
-     
-       body.style.overflow = 'hidden';
-       body.style.position = 'fixed';
-       main.style.opacity = '0';
+      hamburgerBtn.ariaLabel = 'Menü schließen';
+      navContainer.ariaExpanded = 'true'
+      body.style.overflow = 'hidden';
+      body.style.position = 'fixed';
+      main.style.opacity = '0';
        
      }
      //console.log('1', navContainer.classList)
@@ -43,6 +40,9 @@ function mobileNavBtn(){
     if(e.animationName === 'closingNav'){
       navContainer.classList.remove('mobile-nav-div-closing-animation');
       navContainer.classList.add('mobile-nav-div');
+      hamburgerBtn.ariaLabel = 'Menü öffnen';
+      navContainer.ariaExpanded = 'false';
+      body.style.overflow = 'scroll';
     }
     console.log('6')
   })
