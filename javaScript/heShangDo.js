@@ -8,30 +8,46 @@ function mobileNavBtn(){
   const body = document.querySelector('.body');
 
   hamburgerBtn.addEventListener('click', ()=>{
-
-    navContainer.classList.toggle('mobile-nav-div');
-
-    navContainer.classList.toggle('visible-mobile-nav-div');
-
-   let toggled = navContainer.classList.contains('visible-mobile-nav-div');
+     let toggled = navContainer.classList.contains('visible-mobile-nav-div');
+    console.log('1')
 
     if(toggled){
-      body.style.overflow = 'hidden';
-      body.style.position = 'fixed';
-      main.style.opacity = '0';
-    } else {
+      navContainer.classList.remove('visible-mobile-nav-div');
+      navContainer.classList.add('mobile-nav-div-closing-animation');
       body.style.overflow = 'scroll';
-      body.style.position = '';
-      main.style.opacity = '1';
-    }
-
-    console.log(body.style.height, body.style.overflow)
-
+       body.style.position = '';
+       main.style.opacity = '1';
+      console.log('2')
+      return
+      //console.log('2', navContainer.classList)
+    } else{
+      navContainer.classList.add('visible-mobile-nav-div');
+      navContainer.classList.remove('mobile-nav-div');
+      console.log('3')
+     
+       body.style.overflow = 'hidden';
+       body.style.position = 'fixed';
+       main.style.opacity = '0';
+       
+     }
+     //console.log('1', navContainer.classList)
+     console.log('4')
 
   })
 
+
   
-  console.log(hamburgerBtn)
+  navContainer.addEventListener('animationend', (e)=>{
+    console.log('5')
+
+    if(e.animationName === 'closingNav'){
+      navContainer.classList.remove('mobile-nav-div-closing-animation');
+      navContainer.classList.add('mobile-nav-div');
+    }
+    console.log('6')
+  })
+
+
 }
 
 mobileNavBtn();
