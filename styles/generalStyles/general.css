@@ -76,3 +76,19 @@ p{
   font-size: 1rem;
   text-align: center;
 }
+
+.hero-cta-btn{
+    height: 35px;
+    width: 350px;
+    border-radius: 20px;
+    border:none;
+    background-color: darkred;
+    color: whitesmoke;
+    font-family: "Inter", sans-serif;
+    font-size: 1rem;
+    cursor:pointer;
+  }
+
+  .hero-cta-btn:hover{
+    cursor: pointer;
+  }

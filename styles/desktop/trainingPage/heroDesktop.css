@@ -8,7 +8,8 @@
   gap:10px;
   align-items: center;
   background-color: rgb(31, 31, 31, 0.8);
-  width: 
+  width: 90%;
+  padding: 10px 0;
 }
 
 .hero-intro{
@@ -17,7 +18,7 @@
   align-items: center;
   justify-content: space-around;
   gap: 10px;
-  margin: 10px;
+  margin: 8px;
 }
 
 .hero-name, .hero-text-intro{
@@ -34,8 +35,8 @@
 
 .hero-trai-img{
   object-fit: cover;
-  width: 33%;
-  height: 400px;
+  width: 35%;
+  height: 350px;
   border-radius: 20px;
   
 }

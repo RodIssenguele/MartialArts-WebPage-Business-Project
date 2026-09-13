@@ -15,11 +15,10 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    background-color: rgb(31, 31, 31);
+    background-color: rgb(31, 31, 31, 0.9);
     border-radius: 0px;
     padding: 10px;
     width: 80%;
-    opacity: 0.9;
   }
 
   .hero-description{
@@ -34,21 +33,6 @@
     padding: 0;
   }
 
-  .hero-cta-btn{
-    height: 35px;
-    width: 350px;
-    border-radius: 20px;
-    border:none;
-    background-color: darkred;
-    color: whitesmoke;
-    font-family: "Inter", sans-serif;
-    font-size: 1rem;
-    cursor:pointer;
-  }
-
-  .hero-cta-btn:hover{
-    cursor: pointer;
-  }
   .hero-be-water{
     color: whitesmoke;
     font-family: "Inter", sans-serif;
