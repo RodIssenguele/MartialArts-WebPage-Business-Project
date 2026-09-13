@@ -29,7 +29,7 @@
 
 body{
   box-sizing: border-box;
-  background-image: url('../images/background-img-2.png');
+  background-image: url('../../images/background-img-2.png');
   background-color: rgb(31, 31, 31);
   background-attachment:fixed, scroll;
   background-repeat: no-repeat;
