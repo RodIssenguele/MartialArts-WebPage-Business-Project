@@ -1,0 +1,11 @@
+@media(max-width:1023px){
+  .kickbox-box-wettkampf-privat-section{
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  align-items: start;
+  justify-items: center;
+  margin-top: 2%;
+  padding: 0 10px;
+}
+}

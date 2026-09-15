@@ -1,0 +1,14 @@
+@media(max-width:1023px){
+  .jkd-section{
+  width: 90%; 
+  }
+
+.jkd-intro-info-container{
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  align-items: start;
+  justify-items: center;
+}
+
+}
