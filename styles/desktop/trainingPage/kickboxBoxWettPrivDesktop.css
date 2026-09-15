@@ -4,4 +4,32 @@
   gap: 20px;
   align-items: start;
   justify-items: center;
+  margin-top: 2%;
+  padding: 0 10px;
+}
+
+.grid-element{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: rgb(31, 31, 31, 0.8);
+  height: 100%;
+  justify-content: space-between;
+  padding: 10px 0;
+}
+
+.grid-img{
+  object-fit: cover;
+  width: 64%;
+  height: 350px;
+  border-radius: 20px;
+}
+
+.mehr-erfahren{
+  margin-bottom: 10px;
+}
+
+.grid-text{
+  padding: 0 10px;
+  line-height: 1.5;
 }

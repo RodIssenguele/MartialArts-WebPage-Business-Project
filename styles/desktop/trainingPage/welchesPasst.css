@@ -1,0 +1,21 @@
+.welches-passt-section{
+  position: relative;
+  z-index: 1;
+  color: whitesmoke;
+  margin-top: 3%;
+  display: flex;
+  flex-direction: column;
+  gap:10px;
+  align-items: center;
+  justify-content: start;
+  background-color: rgb(31, 31, 31, 0.8);
+  width: 50%;
+  padding: 10px 0;
+}
+
+.welches-passt-info-container{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  
+}

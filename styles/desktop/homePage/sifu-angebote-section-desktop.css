@@ -25,6 +25,9 @@
     height: 100%;
 
   }
+  .sifu-name{
+    margin: 0;
+  }
 
   .trainer-img{
     object-fit: cover;
