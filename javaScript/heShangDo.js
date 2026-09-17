@@ -51,3 +51,122 @@ function mobileNavBtn(){
 }
 
 mobileNavBtn();
+
+const imgArray = [
+  {
+    id: '1',
+    src: 'images/sifu-mit-messer.jpeg'},
+  {
+    id: '2',
+    src: 'images/jungern-training-1.jpeg'},
+  {
+    id: '3',
+    src: 'images/sifu-mit-jkd-training.jpeg'},
+  {
+    id:'4',
+    src: 'images/winers-1.jpeg'
+  }
+];
+
+function slideShow2(){
+
+  const imgContainer = document.querySelector('.js-img-container');
+  const nextbtn = document.querySelector('.js-next');
+  const prevBtn = document.querySelector('.js-prev');
+  const imgA = document.querySelector('.js-img-a');
+
+  let count = 0;
+
+  if(count === 0){
+    imgA.src = imgArray[0].src;
+  }
+
+  nextbtn.addEventListener('click', ()=>{
+
+    if(count > imgArray.length - 2){
+      count = 0;
+      imgA.src = imgArray[0].src;
+      console.log('innnnnn',count)
+      return
+    } else{
+      count += 1; 
+      imgA.src = imgArray[count].src;
+      console.log('in',count)
+    }
+    
+    console.log('out',count) 
+  })
+
+  prevBtn.addEventListener('click', ()=>{
+
+     
+    
+  })
+}
+
+slideShow2();
+
+/*
+
+function slideShow(){
+  
+  const imgContainer = document.querySelector('.js-img-container');
+  const nextbtn = document.querySelector('.js-next');
+  const prevBtn = document.querySelector('.js-prev');
+  const imgA = document.querySelector('.js-img-a');
+  const imgB = document.querySelector('.js-img-b');
+  const imgC = document.querySelector('.js-img-c');
+
+  
+  nextbtn.addEventListener('click', ()=>{
+
+    
+    if(imgA.classList.contains('pic-v')){
+
+      imgA.classList.remove('pic-v');
+      imgB.classList.add('pic-v');
+      console.log('1','a',imgA.classList,'b',imgB.classList);
+
+    } else if(imgB.classList.contains('pic-v')){
+
+      imgB.classList.remove('pic-v');
+      imgC.classList.add('pic-v');
+      console.log('2','b',imgB.classList,'c',imgC.classList);
+
+    } else if(imgC.classList.contains('pic-v')){
+
+      imgC.classList.remove('pic-v')
+      imgA.classList.add('pic-v')
+      console.log('3','c',imgC.classList,'a',imgA.classList);
+    }
+
+  })
+
+  prevBtn.addEventListener('click', ()=>{
+
+    
+    if(imgC.classList.contains('pic-v')){
+
+      imgC.classList.remove('pic-v');
+      imgB.classList.add('pic-v');
+      console.log('1','a',imgA.classList,'b',imgB.classList);
+
+    } else if(imgB.classList.contains('pic-v')){
+
+      imgB.classList.remove('pic-v');
+      imgA.classList.add('pic-v');
+      console.log('2','b',imgB.classList,'c',imgC.classList);
+
+    } else if(imgA.classList.contains('pic-v')){
+
+      imgA.classList.remove('pic-v')
+      imgC.classList.add('pic-v')
+      console.log('3','c',imgC.classList,'a',imgA.classList);
+    }
+
+  })
+}
+
+slideShow();
+
+*/
