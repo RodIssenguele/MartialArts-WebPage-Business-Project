@@ -70,37 +70,34 @@ const imgArray = [
 
 function slideShow2(){
 
-  const imgContainer = document.querySelector('.js-img-container');
   const nextbtn = document.querySelector('.js-next');
   const prevBtn = document.querySelector('.js-prev');
   const imgA = document.querySelector('.js-img-a');
 
   let count = 0;
 
-  if(count === 0){
-    imgA.src = imgArray[0].src;
-  }
+  imgA.src = imgArray[count].src;
 
   nextbtn.addEventListener('click', ()=>{
 
-    if(count > imgArray.length - 2){
+    if(count >= imgArray.length - 1){
       count = 0;
-      imgA.src = imgArray[0].src;
-      console.log('innnnnn',count)
-      return
     } else{
       count += 1; 
-      imgA.src = imgArray[count].src;
-      console.log('in',count)
     }
-    
-    console.log('out',count) 
+    imgA.src = imgArray[count].src;
   })
 
   prevBtn.addEventListener('click', ()=>{
 
-     
-    
+    count = count -1;
+
+    if (count < 0 ){
+      count = imgArray.length - 1;
+    }
+
+    imgA.src =  imgArray[count].src; 
+
   })
 }
 
